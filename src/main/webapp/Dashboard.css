@@ -1,0 +1,46 @@
+* {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: rgba(240, 240, 240, .5);
+    background-size: cover;
+    height: 100vh;
+}
+
+nav {
+    background: blue;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    height: 4em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    margin: 0 2em;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+h3 {
+    margin-top: .7em;
+    font-size: 1.5em;
+}
